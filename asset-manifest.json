@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/subspace-demo/static/js/main.ace29729.chunk.js",
+    "main.js.map": "/subspace-demo/static/js/main.ace29729.chunk.js.map",
+    "runtime-main.js": "/subspace-demo/static/js/runtime-main.3061b09d.js",
+    "runtime-main.js.map": "/subspace-demo/static/js/runtime-main.3061b09d.js.map",
+    "static/js/2.0db18d58.chunk.js": "/subspace-demo/static/js/2.0db18d58.chunk.js",
+    "static/js/2.0db18d58.chunk.js.map": "/subspace-demo/static/js/2.0db18d58.chunk.js.map",
+    "index.html": "/subspace-demo/index.html",
+    "precache-manifest.32f8340382aafdcd0d4a284fbd496559.js": "/subspace-demo/precache-manifest.32f8340382aafdcd0d4a284fbd496559.js",
+    "service-worker.js": "/subspace-demo/service-worker.js",
+    "static/js/2.0db18d58.chunk.js.LICENSE.txt": "/subspace-demo/static/js/2.0db18d58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3061b09d.js",
+    "static/js/2.0db18d58.chunk.js",
+    "static/js/main.ace29729.chunk.js"
+  ]
+}
