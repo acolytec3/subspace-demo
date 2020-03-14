@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7e237a88d6034cb9bf38aa72325a753",
+    "revision": "540ffb593d3f014051622be22dcd7a1f",
     "url": "/subspace-demo/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/subspace-demo/static/js/2.6304fb15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "626d43b10611907ce05d",
-    "url": "/subspace-demo/static/js/main.0b7869b8.chunk.js"
+    "revision": "f961da5a40ea7c91bb82",
+    "url": "/subspace-demo/static/js/main.4fffcac9.chunk.js"
   },
   {
     "revision": "5241cde5d4a34f1a8625",
