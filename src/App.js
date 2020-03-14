@@ -5,6 +5,7 @@ import {
     DataTable,
     Text
 } from 'grommet';
+import { pipe } from 'rxjs';
 import Subspace, {$latest} from '@embarklabs/subspace';
 import Web3 from 'web3';
 import exchangeABI from './contract/exchange_abi.json'
@@ -28,18 +29,19 @@ const theme = {
 
 function App() {
 
-    const [trades, updateTrades] = useState({exchangeRate: 0});
     const [txnObserver, setObservable] = useState();
     const [last5Observer, setLast5Observer] = useState();
     const [latestBlock, setBlock] = useState();
     const [last5, setLast5] = useState([]);
 
+    //Trade details object for calculating exchange rate
     function TradeDetails(tokensSold, ethBought) {
         this.tokensSold = web3.utils.fromWei(tokensSold);
         this.ethBought = web3.utils.fromWei(ethBought);
         this.exchangeRate = this.tokensSold / this.ethBought;
     }
 
+    //Effect hook to define subspace observables
     useEffect(() => {
         web3.eth.getBlockNumber().then((block) => setBlock(block));
         if (typeof(latestBlock) != "number") 
@@ -53,19 +55,19 @@ function App() {
         setLast5Observer(last5$)
     }, [setObservable, setLast5Observer, latestBlock])
 
+    //Effect hook to set up subscription for Uniswap DAI Contract EthPurchase event
     useEffect(() => {
         if ((txnObserver === undefined) || (typeof latestBlock != "number")) {
             return;
         } else {
             txnObserver.subscribe((trade) => {
                 console.log(trade);
-                const txnDetails = new TradeDetails(trade.tokens_sold, trade.eth_bought);
-                updateTrades(txnDetails);
             });
         }
         return txnObserver.unsubscribe;
     }, [txnObserver, latestBlock]);
 
+    //Effect hook to source last 5 trades from EthPurchase observableyarn
     useEffect(() => {
         if (last5Observer === undefined) {
             return;
