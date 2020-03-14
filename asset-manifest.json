@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/subspace-demo/static/js/main.cccafb9c.chunk.js",
-    "main.js.map": "/subspace-demo/static/js/main.cccafb9c.chunk.js.map",
+    "main.js": "/subspace-demo/static/js/main.d7aa6e05.chunk.js",
+    "main.js.map": "/subspace-demo/static/js/main.d7aa6e05.chunk.js.map",
     "runtime-main.js": "/subspace-demo/static/js/runtime-main.3061b09d.js",
     "runtime-main.js.map": "/subspace-demo/static/js/runtime-main.3061b09d.js.map",
-    "static/js/2.e517c277.chunk.js": "/subspace-demo/static/js/2.e517c277.chunk.js",
-    "static/js/2.e517c277.chunk.js.map": "/subspace-demo/static/js/2.e517c277.chunk.js.map",
+    "static/js/2.3e516d73.chunk.js": "/subspace-demo/static/js/2.3e516d73.chunk.js",
+    "static/js/2.3e516d73.chunk.js.map": "/subspace-demo/static/js/2.3e516d73.chunk.js.map",
     "index.html": "/subspace-demo/index.html",
-    "precache-manifest.cd4c72365102941e29fdf7d054ee3003.js": "/subspace-demo/precache-manifest.cd4c72365102941e29fdf7d054ee3003.js",
+    "precache-manifest.5d0fc27196739b205a24f9dfcbdaa769.js": "/subspace-demo/precache-manifest.5d0fc27196739b205a24f9dfcbdaa769.js",
     "service-worker.js": "/subspace-demo/service-worker.js",
-    "static/js/2.e517c277.chunk.js.LICENSE.txt": "/subspace-demo/static/js/2.e517c277.chunk.js.LICENSE.txt"
+    "static/js/2.3e516d73.chunk.js.LICENSE.txt": "/subspace-demo/static/js/2.3e516d73.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3061b09d.js",
-    "static/js/2.e517c277.chunk.js",
-    "static/js/main.cccafb9c.chunk.js"
+    "static/js/2.3e516d73.chunk.js",
+    "static/js/main.d7aa6e05.chunk.js"
   ]
 }
