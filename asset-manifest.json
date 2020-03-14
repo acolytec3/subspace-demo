@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/subspace-demo/static/js/main.63ffdb3d.chunk.js",
-    "main.js.map": "/subspace-demo/static/js/main.63ffdb3d.chunk.js.map",
+    "main.js": "/subspace-demo/static/js/main.0b7869b8.chunk.js",
+    "main.js.map": "/subspace-demo/static/js/main.0b7869b8.chunk.js.map",
     "runtime-main.js": "/subspace-demo/static/js/runtime-main.3061b09d.js",
     "runtime-main.js.map": "/subspace-demo/static/js/runtime-main.3061b09d.js.map",
     "static/js/2.6304fb15.chunk.js": "/subspace-demo/static/js/2.6304fb15.chunk.js",
     "static/js/2.6304fb15.chunk.js.map": "/subspace-demo/static/js/2.6304fb15.chunk.js.map",
     "index.html": "/subspace-demo/index.html",
-    "precache-manifest.53febb8eae05c8dcb0ef8b275ab78af5.js": "/subspace-demo/precache-manifest.53febb8eae05c8dcb0ef8b275ab78af5.js",
+    "precache-manifest.5b7eb43bf8036132f4c657f265724d3c.js": "/subspace-demo/precache-manifest.5b7eb43bf8036132f4c657f265724d3c.js",
     "service-worker.js": "/subspace-demo/service-worker.js",
     "static/js/2.6304fb15.chunk.js.LICENSE.txt": "/subspace-demo/static/js/2.6304fb15.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3061b09d.js",
     "static/js/2.6304fb15.chunk.js",
-    "static/js/main.63ffdb3d.chunk.js"
+    "static/js/main.0b7869b8.chunk.js"
   ]
 }
