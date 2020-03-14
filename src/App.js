@@ -10,7 +10,7 @@ import Subspace, {$latest} from '@embarklabs/subspace';
 import Web3 from 'web3';
 import exchangeABI from './contract/exchange_abi.json'
 
-const web3 = new Web3('https://mainnet.infura.io/v3/9eb527726b034638b37f37f66b0f80d7');
+const web3 = new Web3('https://cloudflare-eth.com');
 const subspace = new Subspace(web3.currentProvider);
 var dai = new web3.eth.Contract(exchangeABI, '0x2a1530C4C41db0B0b2bB646CB5Eb1A67b7158667');
 const daiContract = subspace.contract(dai);
