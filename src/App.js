@@ -119,10 +119,11 @@ const Tradelist = (props) => (
                     {
                         property: 'block',
                         header: <Text>Block</Text>,
-                        primary: true
+                   
                     }, {
                         property: 'rate',
-                        header: <Text>ETH/DAI</Text>
+                        header: <Text>ETH/DAI</Text>,
+                        primary: true
                     }
                 ]
             }
