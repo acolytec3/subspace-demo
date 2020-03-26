@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "https://acolytec3.github.io/subspace-demo",
   "dependencies": {
-    "@embarklabs/subspace": "^1.3.0",
+    "@embarklabs/subspace": "^2.0.2",
+    "@embarklabs/subspace-react": "^1.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
