@@ -11,7 +11,7 @@ import { useSubspace } from '@embarklabs/subspace-react';
 import exchangeABI from './contract/exchange_abi.json'
 import Web3 from 'web3';
 
-const web3 = new Web3("https://cloudflare-eth.com");
+const web3 = new Web3("https://mainnet.infura.io/v3/c4809a978c5b48c8a5b8fdc9133cef42");
 const dai = new web3.eth.Contract(exchangeABI, '0x2a1530C4C41db0B0b2bB646CB5Eb1A67b7158667');
 
 
